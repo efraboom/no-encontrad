@@ -1,0 +1,192 @@
+:root{
+    --gris: #333333;
+    --gris2: #4F4F4F;
+    --grisFooter: #BDBDBD;
+}
+
+
+/* Obligatorio */
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+/*PAGINA*/
+.img{
+    width: 100%;
+}
+
+.inicio{
+    margin-top: 4rem;
+    text-align: left;
+    color: var(--gris);
+    font-size: 2.4rem;
+    margin-left: 5%;
+    font-weight: 700;
+    font-family: 'Space Mono', monospace;
+}
+
+
+.contenedor{
+    margin-top: 5rem;
+    margin-left: 3%;
+    margin-right: 3%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 2rem;
+}
+
+.texto{
+    color: var(--gris);
+    font-size: 6.4rem;
+    font-weight: 700;
+    font-family: 'Space Mono', monospace;
+    margin-bottom: 6.4rem;
+}
+
+.parrafo{
+    font-size: 2.4rem;
+    font-weight: 400;
+    font-family: 'Space Mono', monospace;
+    color: var(--gris2);
+    margin-bottom: 3.6rem;
+}
+.boton{
+    font-size: 2.4rem;
+    font-weight: 400;
+    font-family: 'Space Mono', monospace;
+    text-decoration: none;
+    background-color: var(--gris);
+    color: #ffffff;
+    padding: 2.4rem 4.3rem 2.4rem 4.3rem;
+}
+.creditos{
+    margin-bottom: 2.4rem;
+    margin-top: 4rem;
+}
+.creditos__texto{
+    text-align: center;
+    font-size: 1.4rem;
+    font-weight: 400;
+    font-family: 'Space Mono', monospace;
+    color: var(--grisFooter);
+}
+.bold{
+    font-size: 1.4rem;
+    font-weight: 700;
+    font-family: 'Space Mono', monospace;
+    color: var(--grisFooter);
+}
+
+/**Pantallas grandes (desktops de menos de 1200px)**/
+@media (max-width: 1199.98px) { 
+
+}
+
+/**Pantallas medianas (tablets de menos de 992px)**/
+@media (max-width: 991.98px) { 
+    .contenedor{
+        margin-top: 5rem;
+        margin-left: 3%;
+        margin-right: 3%;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        row-gap: 2rem;
+    }
+}
+
+/**Pantallas pequeñas (móviles en landscape de menos de 768px)*/
+@media (max-width: 760px) {
+    .contenedor{
+        margin-top: 6.4rem;
+        margin-left: 3%;
+        margin-right: 3%;
+        display: grid;
+        grid-template-columns: 1fr;
+        row-gap: 3rem;
+    }
+
+    .texto{
+        color: var(--gris);
+        font-size: 6.4rem;
+        font-weight: 700;
+        font-family: 'Space Mono', monospace;
+        
+    }
+    
+    .parrafo{
+        font-size: 2.4rem;
+        font-weight: 400;
+        font-family: 'Space Mono', monospace;
+        color: var(--gris2);
+        margin-bottom: 3.6rem;
+        margin-bottom: 6.6rem;
+    }
+    .boton{
+        font-size: 2.4rem;
+        font-weight: 400;
+        font-family: 'Space Mono', monospace;
+        text-decoration: none;
+        background-color: var(--gris);
+        color: #ffffff;
+        padding: 2.4rem 4.3rem 2.4rem 4.3rem;
+    }
+    .textos{
+        margin-bottom: 11.4rem;
+    }
+    
+
+
+}
+
+/**Pantallas muy pequeñas (móviles en portrait de menos de 576px)*/
+@media (max-width: 575.98px) { 
+    .contenedor{
+        margin-top: 6.4rem;
+        margin-left: 3%;
+        margin-right: 3%;
+        display: grid;
+        grid-template-columns: 1fr;
+        row-gap: 3rem;
+    }
+
+    .texto{
+        color: var(--gris);
+        font-size: 6.4rem;
+        font-weight: 700;
+        font-family: 'Space Mono', monospace;
+        margin-bottom: 6.4rem;
+    }
+    
+    .parrafo{
+        font-size: 2.4rem;
+        font-weight: 400;
+        font-family: 'Space Mono', monospace;
+        color: var(--gris2);
+        margin-bottom: 3.6rem;
+        margin-bottom: 6.6rem;
+    }
+    .boton{
+        font-size: 2.4rem;
+        font-weight: 400;
+        font-family: 'Space Mono', monospace;
+        text-decoration: none;
+        background-color: var(--gris);
+        color: #ffffff;
+        padding: 2.4rem 4.3rem 2.4rem 4.3rem;
+    }
+    .textos{
+        margin-bottom: 11.4rem;
+    }
+    
+}
+
+
+
